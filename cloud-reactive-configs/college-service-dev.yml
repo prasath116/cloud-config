@@ -18,7 +18,11 @@ spring:
     url: r2dbc:h2:file://./../etc/${spring.application.name}-h2-db?options=DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
     username: ${username}
     password: ${password}
-    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"    
 info:
   app:
     name: ${spring.application.name}
