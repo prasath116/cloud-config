@@ -27,4 +27,4 @@ info:
     environment: ${spring.profiles.active}
     java:
       version: ${java.version}
-environment.decription: Native environment
+environment.decription: Native environment 03/02/2022 07:32
