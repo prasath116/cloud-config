@@ -65,5 +65,5 @@ springdoc:
         url: /v3/api-docs/department
       - name: college
         url: /v3/api-docs/college
-      - name: college
-        url: /v3/api-docs/college
+      - name: student
+        url: /v3/api-docs/student
